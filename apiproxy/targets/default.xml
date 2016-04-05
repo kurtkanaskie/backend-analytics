@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="default">
+    <DefaultFaultRule name="DefaultFaultRule">
+        <Step>
+            <FaultRules/>
+            <Name>JS-debug</Name>
+        </Step>
+        <AlwaysEnforce>false</AlwaysEnforce>
+    </DefaultFaultRule>
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request/>
+        <Response/>
+    </PreFlow>
+    <Flows/>
+    <PostFlow name="PostFlow">
+        <Response>
+            <Step>
+                <Name>EV-backend-system</Name>
+            </Step>
+            <Step>
+                <Name>SC-backend-system</Name>
+            </Step>
+        </Response>
+        <Request></Request>
+    </PostFlow>
+    <ScriptTarget>
+        <ResourceURL>node://api.js</ResourceURL>
+    </ScriptTarget>
+</TargetEndpoint>
