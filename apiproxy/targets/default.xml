@@ -22,8 +22,11 @@
             <Step>
                 <Name>SC-backend-system</Name>
             </Step>
+            <Step>
+                <Name>AM-remove-backend-system</Name>
+            </Step>
         </Response>
-        <Request></Request>
+        <Request/>
     </PostFlow>
     <ScriptTarget>
         <ResourceURL>node://api.js</ResourceURL>

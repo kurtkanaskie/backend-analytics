@@ -3,6 +3,6 @@
     <DisplayName>SC-backend-system</DisplayName>
     <Properties/>
     <Statistics>
-        <Statistic name="BackendSysetm" ref="backend-system" type="String">NO_SYSTEM</Statistic>
+        <Statistic name="BackendSystem" ref="backend-system" type="String"/>
     </Statistics>
 </StatisticsCollector>

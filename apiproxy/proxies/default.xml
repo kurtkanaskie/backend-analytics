@@ -24,7 +24,7 @@
     </PostFlow>
     <PostClientFlow>
         <Request/>
-        <Response/>
+        <Response></Response>
     </PostClientFlow>
     <HTTPProxyConnection>
         <BasePath>/backend-analytics</BasePath>

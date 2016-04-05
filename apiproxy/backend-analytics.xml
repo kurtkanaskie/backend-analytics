@@ -5,9 +5,10 @@
     <CreatedBy>kurt.kanaskie@gmail.com</CreatedBy>
     <Description>Demonstration of custom analytics from backend systems.</Description>
     <DisplayName>backend-analytics</DisplayName>
-    <LastModifiedAt>1459860808921</LastModifiedAt>
+    <LastModifiedAt>1459876173833</LastModifiedAt>
     <LastModifiedBy>kurt.kanaskie@gmail.com</LastModifiedBy>
     <Policies>
+        <Policy>AM-remove-backend-system</Policy>
         <Policy>EV-backend-system</Policy>
         <Policy>JS-debug</Policy>
         <Policy>SC-backend-system</Policy>
