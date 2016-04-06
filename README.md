@@ -1,5 +1,16 @@
 # Example apiproxy backend-analytics
 
+Example Apigee API Node.js based proxy to pass values as custom headers (X-BackendSystem) to be use for custom analytics in Edge.
+
+Goal is to capture which backend target, of many, in the Node.js app that are being used.
+
+Approach: In Target PostFlow Response
+* Pass values from Node.js back to Apigee Edge flow via header params
+* Extract Variables to access the header param from Node.js
+* Statistics Collector to collect the custom property
+* Assign Message to remove the header param
+
+
 ###Download API proxy
 
 #####Management API 
