@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <TargetEndpoint name="default">
-    <DefaultFaultRule name="DefaultFaultRule">
-        <Step>
-            <FaultRules/>
-            <Name>JS-debug</Name>
-        </Step>
-        <AlwaysEnforce>false</AlwaysEnforce>
-    </DefaultFaultRule>
+    <DefaultFaultRule name="DefaultFaultRule"/>
     <Description/>
     <FaultRules/>
     <PreFlow name="PreFlow">
@@ -18,6 +12,9 @@
         <Response>
             <Step>
                 <Name>EV-backend-system</Name>
+            </Step>
+            <Step>
+                <Name>JS-set-target-url</Name>
             </Step>
             <Step>
                 <Name>SC-backend-system</Name>

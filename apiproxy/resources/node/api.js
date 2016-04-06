@@ -40,17 +40,17 @@ router.get('/status', function(req, res) {
 });
 
 router.get('/server1', function(req, res) {
-    res.set('X-Backend-System', 'Server1');
+    res.set('X-Backend-System', 'BackendServerName1');
 	res.status(200).send( {response:'Server 1'});
 });
 
 router.get('/server2', function(req, res) {
-    res.set('X-Backend-System', 'Server2');
+    res.set('X-Backend-System', 'BackendServerName2');
 	res.status(200).send( {response:'Server 2'});
 });
 
 router.get('/server3', function(req, res) {
-    res.set('X-Backend-System', 'Server3');
+    res.set('X-Backend-System', 'BackendServerName3');
 	res.status(200).send( {response:'Server 3'});
 });
 

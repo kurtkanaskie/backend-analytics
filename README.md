@@ -10,7 +10,7 @@
 * curl -X GET -u username:password "https://api.enterprise.apigee.com/v1/o/ORG/apis/backend-analytics/revisions/2?format=bundle" -o backend-analytics.zip
 
 #####Apigeetool
-```apigeetool fetchproxy -u {{UN}} -p {{PW}} -o {{ORG}} -n backend-analytics -r {{REV}}```
+```apigeetool fetchproxy -u $UN -p $PW -o $ORG -n backend-analytics -r $REV -f backend-analytics-r2.zip```
 
 #####Maven
 Download the API bundle, as per above.
